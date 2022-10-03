@@ -1,8 +1,8 @@
 import * as alt from 'alt-server';
-import { Athena } from '../../../../server/api/athena';
-import { command } from '../../../../server/decorators/commands';
-import { PERMISSIONS } from '../../../../shared/flags/permissionFlags';
-import { isFlagEnabled } from '../../../../shared/utility/flags';
+import { Athena } from '@server/api/athena';
+import { command } from '@server/decorators/commands';
+import { PERMISSIONS } from '@shared/flags/permissionFlags';
+import { isFlagEnabled } from '@shared/utility/flags';
 import { ExPlayerInfo } from '../../shared/interfaces';
 import { ExampleWebViewEvents } from '../../shared/viewInfo';
 
